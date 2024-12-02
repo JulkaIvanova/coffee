@@ -130,6 +130,34 @@ background-color: rgb(100, 62, 35);</string>
     </property>
    </widget>
   </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>994</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Редактировать данные</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>Изменить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
